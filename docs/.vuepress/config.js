@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/LearnRoadRunner/",
   title: "Learn Road Runner",
   description: "Learn the ins-and-outs of the Road Runner library",
   head: [
