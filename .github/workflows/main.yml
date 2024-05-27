@@ -35,7 +35,7 @@ jobs:
 
       # run build script
       - name: Build VuePress site
-        run: npm install && pnpm build
+        run: npm install && NODE_OPTIONS=--openssl-legacy-provider pnpm build
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
